@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+}
+.a-pokemon {
+  display: grid;
+  grid-template-columns: repeat(12 calc(100% / 12));
+}
+
+.a-pokemon * {
+  border: 0.2px solid black;
+  /* display: flex; */
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.a-pokemon-id {
+  grid-template-columns: 2 span;
+  background-color: lightblue;
+}
